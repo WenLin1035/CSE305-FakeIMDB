@@ -1,0 +1,27 @@
+transactions to complete:
+
+search function.
+	separates into movie, actor, director, productio , producer, distributor -> done
+	
+	advanced search which lets you search for specifics like actor above a certain age, actor in a certain movie
+	
+	movie page that shows all the information related to the movie -> not odne but specfics are done, page to be done by david
+	
+	page where you can add actor, director, production member, producer , distributor, link cast members to movies, movies to producers, movies to distributors ->done
+	
+	page where you can update the above. -> 
+	
+	 page where you an remove links between movie and actor etc. -> done
+	 
+	 https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+	 
+	 actor script
+	 director script
+	 movie script
+	 production member script
+	 producer script
+	 distributor script
+	 get associated all of the above script except movie //we can reuse the movie page scripts so it uses the id of the crerw member to populate the options
+	 same with the producer and distributors
+	 
+	 

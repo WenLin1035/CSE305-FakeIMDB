@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script>
+			function getJSON(){
+				var request = new XMLHttpRequest();
+				request.onreadystatechange = function(){
+					if(this.readyState ==4 && this.status == 200){
+						var jsonObject = JSON.parse(this.responseText);
+						var select = document.getElementById("testing");
+						for(i in jsonObject){
+							select.options[select.options.length] = new Option(""+jsonObject[i].CrewName, ""+jsonObject[i].CrewID);
+						}
+					}
+				};
+				request.open("GET","getMovieList.php?query=",true);
+				request.send();
+			}
+		</script>
+	</head>
+	<body>
+		<select id = "testing" name = "data">
+		</select>
+		<button onclick = "getJSON()">nice</button>
+	</body>
+
+</html>

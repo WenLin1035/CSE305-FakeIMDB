@@ -1,0 +1,68 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#nav li{
+    display:inline;
+}
+#nav{
+    height:10px;
+}
+#toppanel{
+    background-color: #bfbfbf;
+}
+#container{
+    background-color: #bfbfbf;
+    display: block;
+}
+#navbar-header{
+    background-color: #bfbfbf;
+    display: block;
+}
+#leftpanel{
+    background-color: #ffccff;
+    /*width: 900px;*/
+    border-radius: 15px;
+    border: 2px solid white;
+}
+#rightpanel{
+    background-color: #4dd2ff;
+    list-style-type: none;
+    margin:0;
+    display:block;
+    line-height: 200%;
+}
+#movielist{
+    background-color: #ffccff;
+    display: block;
+    list-style-type: none;
+    margin:0;
+    height: 200px;
+
+}
+.bottom-left{
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    font-size: 12px;
+}
+#searchicon{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+}
+#i1{
+    width: 20%;
+}
+
+.jumbotron{
+    height: 20px !important; 
+    padding: 30px !important;
+}
+
+
+
+
+
+

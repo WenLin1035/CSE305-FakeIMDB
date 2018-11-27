@@ -1,0 +1,4 @@
+[24-Nov-2018 23:32:48 UTC] PHP Notice:  Undefined index: actor in /home/cse305fa/public_html/actor.php on line 2
+[25-Nov-2018 02:37:43 UTC] PHP Notice:  Undefined index: actor in /home/cse305fa/public_html/director.php on line 2
+[25-Nov-2018 02:38:17 UTC] PHP Notice:  Undefined index: actor in /home/cse305fa/public_html/director.php on line 2
+[25-Nov-2018 03:40:36 UTC] PHP Notice:  Undefined index: movie in /home/cse305fa/public_html/movie.php on line 2
